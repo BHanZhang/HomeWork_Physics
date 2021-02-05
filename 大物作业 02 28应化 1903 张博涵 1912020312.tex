@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{ctex}
+\title{大物作业}
+\author{张博涵-应化1903(学号:1912020312)}
+\date{\today}
+\begin{document}
+	\maketitle
+	若记$\vec { r }=\vec { r }(x(t),y(t))$
+	则有
+	\begin{equation}
+    x(t)=4t^2\label{1}
+	\end{equation}
+	\begin{equation}
+    y(t)=3+2t\label{2}
+	\end{equation}
+	<1>将公式(\ref{2})右侧的 3 移到左边平方,再将公式(\ref{1})带入此式可得:
+	\begin{equation}
+    (y-3)^2=x\label{3}
+	\end{equation}
+	<2>对$\vec{ r }=4t^2\vec{ i }+(3+2t)\vec{ j }$的两边同时对t求导可得:
+	\begin{equation}
+    \vec{ v }(t)=\frac { d \vec { r } } { d t } = 8 t \vec { i } + 2 \vec { j }\label{4}
+	\end{equation}
+	分别代入t=1,2则得:
+	\begin{center}
+	$\vec{ v }(1)=8\vec { i } + 2\vec { j }$\\
+	$\vec{ v }(2)=16\vec { i } + 2\vec { j }$
+	\end{center}
+	<3>由题目所给的条件:$\vec { r }(t)=4t^2\vec { i }+(3+2t)\vec { j }$
+	分别代入t=1,2则得:
+	\begin{center}
+	$\vec { r }(1)=4\vec { i }+5\vec { j }$\\
+	$\vec { r }(2)=16\vec { i }+7\vec { j }$
+	\end{center}
+	所以从 t=1 到 t=2 的位移为:
+	$$\vec { x }=\vec { r }(2)-\vec { r }(1)=12\vec { i }+2\vec { j }$$
+	其平均速度为:
+	$$\overline{\vec { v }}=\frac{\vec{ x }}{2-1}=12\vec { i }+2\vec { j }$$
+	<4>对(\ref{4})两边再同时对t求导得:
+	$$\vec{ a }=\frac{d\vec{r}}{dt}=8\vec{ i }$$
+	则可算出加速度的总大小为$ \| \vec { a } \|=8$\\
+	速度的大小也可算出:$v=\| \vec { v } \|=\sqrt { ( 8 t ) ^ { 2 } + 4 }=2\sqrt{16t^2+1}$
+	则切向加速度可算得:$$a_t=\frac{dv}{dt}=\frac{2d\sqrt{16t^2+1}}{dt}=\frac{32t}{\sqrt{16t^2+1}}$$
+	则由加速度大小的表达式$a=\sqrt{a _ { n } ^ { 2 }+a _ { t } ^ { 2 }}$\\
+	得$$a_n=\sqrt{a^2-a_{t} ^{2}}=\sqrt{32}\sqrt{2-\frac{32t^2}{16t^2+1}}=\frac{8}{\sqrt{16t^2+1}}$$
+\end{document}
+
+
+
+
+	

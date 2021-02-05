@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{ctex}
+
+
+
+\title{大物作业}
+\author{张博涵-应化1903(学号:1912020312)}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	(1)设子弹射入后瞬间杆的角速度为$\omega$,将子弹和杆看做一个系统,子弹的射入瞬间,系统的角动量守恒:
+	$$mv_0 \cdot \frac{2}{3} l = (\frac {1}{3} \cdot 6m \cdot l^2 + m(\frac {2}{3}l)^2)\omega$$
+	解得:
+	$$\omega = \frac{3v_0}{11l}$$
+	(2)子弹射入杆中之后随杆一起向上转动,此时杆和子弹组成的系统的质心发生了改变。
+	先求质心$c$,为此以$O$点为原点沿杆方向为正方向建立$ x $轴,以由质心的定义可得:
+	\[
+	x_c=\frac{\displaystyle\sum\limits_{i} m_ix_i}{\displaystyle\sum _i m_i}
+	=\frac{\displaystyle\int_{0}^{l} \frac{6m}{l}xdx+\frac{2l}{3}\cdot m}{\displaystyle\sum _i m_i}
+	=\frac{\displaystyle\frac{11ml}{3} }{7m}=\frac{11}{21}l
+	\]
+	此时杆绕转轴转动的转动惯量也发生了改变,
+	转动惯量$J$由转动惯量的定义可得:
+	\[
+	J=\sum\limits_{i} m_iR_i^2
+	=\displaystyle\int_{0}^{l}\frac{6m}{l}x^2dx+m \cdot (\frac{2l}{3})^2
+	=\frac{22}{9}ml^2
+	\]
+	设子弹和杆的系统质心上升的高度为$h$有能量守恒式:
+	$$\frac{1}{2}J\omega^2=7mgh$$
+	则可解得:$$h=\frac{v_0^2}{77g}$$
+	设转过的角度为$\theta$ 此时由几何关系可知:$$\cos\theta=\displaystyle\frac{\displaystyle\frac{11}{21}l-\displaystyle\frac{v_0^2}{77g}}{\displaystyle\frac{11}{21}l}=1-\frac{3v_0^2}{121gl}$$
+	求反三角函数,可知:
+	$$\theta=\arccos(1-\frac{3v_0^2}{121gl})$$
+	
+	
+\end{document}
